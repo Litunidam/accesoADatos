@@ -1,0 +1,16 @@
+Nombre: SergioApellidos: GarciaEdad: 20Ciudad de residencia: CuencaNombre: Manuel
+Apellidos: Martin
+Edad: 25
+Ciudad de residencia: Alcala de Henares
+Nombre: Sergio
+Apellidos: Garcia
+Edad: 20
+Ciudad de residencia: Tarancon
+Nombre: Daniel
+Apellidos: Navarro
+Edad: 20
+Ciudad de residencia: Tarancon
+Nombre: Sergio
+Apellidos: Muñoz
+Edad: 19
+Ciudad de residencia: Sanse
