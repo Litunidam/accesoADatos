@@ -1,12 +1,10 @@
 package ejerciciosFicheros;
 
-import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -50,7 +48,9 @@ public class ejercicio2 {
 			for(Vehicle x: vehicles) {
 				pw.print(x);
 			}
-			
+			pw.close();
+			fw.close();
+			s.close();
 		} catch (IOException e) {
 			
 			e.printStackTrace();
