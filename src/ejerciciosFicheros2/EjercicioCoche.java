@@ -45,23 +45,23 @@ public class EjercicioCoche {
 			fis = new FileInputStream("coches.dat");
 			ois = new ObjectInputStream(fis);
 			
-			
-			while(ois.readObject() != null) {
+			Car car;
+			while((car = (Car) ois.readObject()) != null) {
 				
-				System.out.println(ois.readObject());
+				System.out.println(car);
 				
 			}
 			
 			
 			
-			
+			oos.flush();
+			oos.close();
+			fos.close();
 			
 			ois.close();
 			fis.close();
 			
-			oos.flush();
-			oos.close();
-			fos.close();
+			
 			
 		}catch(Exception e) {
 			

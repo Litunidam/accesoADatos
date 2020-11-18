@@ -41,30 +41,30 @@ public class Ejercicio1 {
 	}
 
 	private static void replaceNumbers(Scanner s, RandomAccessFile raf) throws IOException {
-		
+
 		double numbers;
 		int length;
 		double aux;
-		length = (int)(raf.length());
-		
+		length = (int) (raf.length());
+
 		System.out.println("Introduzca el número que quieres cambiar");
 		numbers = s.nextDouble();
 		s.hasNextLine();
 		System.out.println("Introduzca el número nuevo:");
 		aux = s.nextDouble();
 		s.nextLine();
-		
-		for (int i = 0;i<length;i=i+8) {
-			
+
+		for (int i = 0; i < length; i = i + 8) {
+
 			raf.seek(i);
-			
-			if(numbers ==raf.readDouble()) {
-				
+
+			if (numbers == raf.readDouble()) {
+
 				raf.seek(i);
 				raf.writeDouble(aux);
-				
+
 			}
-			
+
 		}
 	}
 

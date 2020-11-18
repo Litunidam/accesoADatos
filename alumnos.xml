@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alumnos>
+  <alumno matricula="A1">
+    <nombre>Jean</nombre>
+    <apellidos>Dupont</apellidos>
+    <domicilio>Campos Elíseos</domicilio>
+    <telefono pertenece="propio">+034</telefono>
+    <pais>Francia</pais>
+    <comentario>Esto es un comentario</comentario>
+    <sexo>
+      <hombre/>
+    </sexo>
+    <notas>
+      <evaluacion>1</evaluacion>
+      <calificacion>7</calificacion>
+      <evaluacion>2</evaluacion>
+      <calificacion>5</calificacion>
+    </notas>
+  </alumno>
+  <alumno matricula="A1">
+    <nombre>Pepe</nombre>
+    <apellidos>Pérez Fernández</apellidos>
+    <domicilio>C/ Alcalá</domicilio>
+    <telefono pertenece="madre">9110</telefono>
+    <provincia>Madrid</provincia>
+    <notas>
+      <evaluacion>1</evaluacion>
+      <calificacion>7</calificacion>
+	  <evaluacion>1</evaluacion>
+      <calificacion>7</calificacion>
+    </notas>
+  </alumno>
+  <alumno matricula="A2">
+    <nombre>Santiago</nombre>
+    <apellidos>Abascal</apellidos>
+    <domicilio>Desonocido</domicilio>
+    <telefono pertenece="propio">+034765234985</telefono>
+    <pais>Reino del sol</pais>
+    <comentario>Siempre preparado para cualquier cosa</comentario>
+    <sexo>
+      <hombre/>
+    </sexo>
+    <notas>
+      <evaluacion>10</evaluacion>
+      <calificacion>10</calificacion>
+      <evaluacion>10</evaluacion>
+      <calificacion>10</calificacion>
+    </notas>
+  </alumno>
+  <alumno matricula="A3" ayudado="A1 A2">
+    <nombre>Luisa</nombre>
+    <apellidos>García Rodríguez</apellidos>
+    <domicilio>C/ Gran Vía</domicilio>
+    <telefono pertenece="tutor">9111</telefono>
+    <provincia>Madrid</provincia>
+    <sexo>
+      <mujer/>
+    </sexo>
+    <notas>
+      <evaluacion>1</evaluacion>
+      <calificacion>9</calificacion>
+	  <evaluacion>1</evaluacion>
+      <calificacion>9</calificacion>
+    </notas>
+  </alumno>
+  <alumno matricula="A2">
+    <nombre>Pablo</nombre>
+    <apellidos>Iglesias</apellidos>
+    <domicilio>!Vallecas</domicilio>
+    <telefono pertenece="propio">+034698512496</telefono>
+    <pais>República española</pais>
+    <comentario>Felizmente Casado</comentario>
+    <sexo>
+      <hombre/>
+    </sexo>
+    <notas>
+      <evaluacion>10</evaluacion>
+      <calificacion>10</calificacion>
+      <evaluacion>9</evaluacion>
+      <calificacion>10</calificacion>
+    </notas>
+  </alumno>
+</alumnos>

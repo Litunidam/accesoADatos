@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><noticias>
+        <!--Noticia 1 -->
+	<noticia tipo="economia">
+	 	<titulo url="http://www.elpais.es/articulo.html?anchor=elpepieco&amp;xref=20010215elpepieco_14&amp;type=Tes&amp;d_date=20010215">Microsoft, investigado por invertir en un rival </titulo>
+     	<fecha>15 de febrero de 2001</fecha>
+	 	<contenido>El gigante de la informatica Microsoft, pendiente de una apelacion para evitar ser dividido en dos por vulnerar la competencia, está siendo investigado otra vez por las autoridades antimonopolio, que sospechan de por que el mayor fabricante de programas invirtio 135 millones de dolares (24.165 millones de pesetas) en su rival Corel.</contenido>
+		<posicion>1</posicion>
+	</noticia>
+
+	<!--Noticia 2 -->
+	<noticia tipo="internet">
+		<titulo url="http://www.abc.es/Internet/noticia.asp?id=13298&amp;dia=18022001">Clinicas reales y virtuales para tratar adictos a Internet </titulo>
+    	<fecha>18 de febrero de 2001</fecha>
+		<contenido>La aparicion de una nueva patologia, la "dependencia" a internet, esta confirmada por la creacion de numerosas clinicas en Estados Unidos, reales o virtuales, para tratar de remediar las enfermedades de la red....</contenido>
+		<posicion>2</posicion>
+	</noticia>
+
+</noticias>
